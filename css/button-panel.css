@@ -1,0 +1,25 @@
+#button-panel {
+    z-index: 2;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 15px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.roundbutton {
+    width: 70px;
+    height: 70px;
+    background-color: #ffffff;
+    border: 5px solid #000000 ;
+    margin: 3px 7px;
+    color: black;
+    font-size: 0.7em;
+    moz-border-radius: 35px;
+    -webkit-border-radius: 35px;
+    border-radius: 35px;
+}
+
+.roundbutton:hover {
+    opacity: 0.6;
+}

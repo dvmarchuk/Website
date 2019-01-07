@@ -17,6 +17,7 @@ function createScene() {
     //Camera
     camera = new BABYLON.FreeCamera("FreeCamera", new BABYLON.Vector3(0, 5, -100), scene);
     camera.attachControl(canvas, true);
+    console.log("can you hear me?")
     // var arcCamera = new BABYLON.ArcRotateCamera("ArcRotateCamera", 0, 0, 0, BABYLON.Vector3.Zero(), scene);
     // arcCamera.setPosition(new BABYLON.Vector3(60, 20, -2));
     // arcCamera.attachControl(canvas, false);
@@ -96,6 +97,8 @@ function createScene() {
     box.physicsImpostor = new BABYLON.PhysicsImpostor(box, BABYLON.PhysicsImpostor.BoxImpostor, { mass: 1, restitution: 1 }, scene);
     scene.collisionsEnabled = true;
     box.checkCollisions = true;
+    sphere.checkCollisions = true;
+
 
 
 

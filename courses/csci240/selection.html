@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>SVG</title>
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="https://d3js.org/d3-selection.v1.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/selection.css">
+
+</head>
+<body>
+
+<div>Selections</div>
+
+
+<button onClick="barColor()">Δ Bar Color</button>
+<button onClick="pieColor()">Δ Pie Color</button>
+<button onClick="pieText()">Δ Pie Text</button>
+<button onClick="titleColor()">Δ Title Color</button>
+<button onClick="titleFont()">Δ Title Font</button>
+
+<h1 id="title">SVG</h1>
+
+<svg version="1.1"
+     baseProfile="full"
+     width="400" height="400"
+     xmlns="http://www.w3.org/2000/svg">
+
+    <g id="graph">
+        <path d="M 50 0 V 350 H 400" stroke-width="3" stroke="black" fill="transparent" />
+
+        <path d="M 100 350 V 50" stroke-width="30" stroke="black" fill="transparent" />
+        <path d="M 150 350 V 150" stroke-width="30" stroke="black" fill="transparent" />
+        <path d="M 200 350 V 250" stroke-width="30" stroke="black" fill="transparent" />
+        <path d="M 250 350 V 300" stroke-width="30" stroke="black" fill="transparent" />
+        <path d="M 300 350 V 250" stroke-width="30" stroke="black" fill="transparent" />
+        <path d="M 350 350 V 150" stroke-width="30" stroke="black" fill="transparent" />
+
+    </g>
+</svg>
+
+
+
+<br>
+
+<svg version="1.1"
+     baseProfile="full"
+     width="410" height="410"
+     xmlns="http://www.w3.org/2000/svg">
+
+    <g id="quartered-circle">
+        <path d="M 0 200 Q 15 15 200 0 V 200 Z" fill="red"/>
+        <path d="M 200 0 Q 385 15 400 200 H 200 Z" fill="green"/>
+        <path d="M 400 200 Q 385 385 200 400 V 200 H 400" fill="orange" />
+        <path d="M 200 400 Q 15 385 0 200 H 200 V 400" fill="blue" />
+
+        <circle cx="200" cy="200" r="200" stroke-width="10" stroke="gray" fill="transparent"/>
+
+        <text id = "apples" text-anchor="middle" x="100" y="125" font-size="25" fill="black">apples</text>
+        <text id = "grapes" text-anchor="middle" x="300" y="125" font-size="25" fill="black">grapes</text>
+        <text id = "blueberries" text-anchor="middle" x="100" y="275" font-size="25" fill="black">blueberries</text>
+        <text id = "oranges" text-anchor="middle" x="300" y="275" font-size="25" fill="black">oranges</text>
+
+    </g>
+</svg>
+
+<script src="javascript/selection.js"></script>
+
+
+</body>
+</html>
+
+
+
+

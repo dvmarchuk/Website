@@ -1,0 +1,25 @@
+#snake{
+    width: 10px;
+    height: 10px;
+    background-color: green;
+    position: absolute;
+}
+
+#outerBoard{
+    width: 200px;
+    height: 200px;
+    border: 10px solid darkolivegreen;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    /*background-image: url("../images/checkered.jpg");*/
+}
+
+#food{
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: red;
+}
+

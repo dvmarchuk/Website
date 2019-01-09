@@ -1,0 +1,17 @@
+
+body {
+    text-align: center;
+}
+
+h1 #quartered-circle {
+    display: inline-block;
+}
+
+#quartered-circle {
+    transform: translateX(5px) translateY(5px);
+}
+
+#title{
+    color: blue;
+    font-size: 24px;
+}

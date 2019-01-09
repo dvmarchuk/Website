@@ -1,0 +1,35 @@
+.button{
+    background-color: #cae6fc;
+    width: 100px;
+    height: 100px;
+    margin: 10px 10px 10px 10px;
+    float: left;
+    border-radius: 15px;
+    line-height: 475%;
+}
+
+#keypad{
+    width: max-content;
+    background-color: whitesmoke;
+    font-size: 20px;
+    font-family: "Futura";
+    font-weight: bold;
+    border-radius: 25px;
+    height: 540px;
+}
+
+body{
+    text-align: center;
+}
+
+#code{
+    border: solid 1px #cae6fc;
+    border-radius: 15px;
+    width: 93%;
+    height: 30px;
+    background-color: whitesmoke;
+    font-size: 20px;
+    font-family: "Futura";
+    font-weight: bold;
+}
+
